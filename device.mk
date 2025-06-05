@@ -36,3 +36,4 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from nile-common
 $(call inherit-product, device/sony/nile-common/nile.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
